@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+Python.h
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.tox/
+
+# IDEs
+.idea/             # IntelliJ / PyCharm
+.vscode/           # VS Code
+*.iml              # IntelliJ project files
+
+# Operating System Files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Langchain / Langgraph Specific (optional, depending on usage)
+langchain.sqlite # If you use Langchain's built-in SQLite for memory/state persistence
+
+# API Keys and Sensitive Data
+.env               # Ignore environment variables file (crucial for GOOGLE_API_KEY)
